@@ -1,15 +1,15 @@
 {
-  "name": "lottecss",
-  "version": "1.0.0",
+  "name": "@pentacle/lottecss",
+  "version": "1.0.2",
   "description": "out of the box design and styling for your semantic markup",
   "type": "module",
   "main": "dist/styles.css",
   "style": "dist/styles.css",
   "files": [
-    "dist/"
+    "styles.css"
   ],
   "scripts": {
-    "build": "postcss src/css/globals.css -o dist/styles.css"
+    "build": "postcss src/css/globals.css -o styles.css"
   },
   "license": "MIT",
   "packageManager": "yarn@4.3.1",
