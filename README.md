@@ -2,11 +2,11 @@
 
 ![Homepage](https://img.shields.io/badge/website-lottecss.com-blue)
 
-> out of the box design and styling for your app  
-> no need to apply classes  
-> use with your semantic HTML/JSX markup  
-> consistent styling for your elements  
-> minimal (familiar) utility classes so you don't need Tailwind
+- out of the box design and styling for your app  
+- no need to apply classes  
+- use with your semantic HTML/JSX markup  
+- consistent styling for your elements  
+- minimal (familiar) utility classes so you don't need Tailwind
 
 **Live demo & docs:** [https://lottecss.com](https://lottecss.com)
 
@@ -15,6 +15,6 @@
 ## Installation
 
 ```bash
-yarn add lottecss
+yarn add @pentacle/lottecss
 # or
-npm install lottecss
+npm install @pentacle/lottecss
