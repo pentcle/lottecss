@@ -1,0 +1,151 @@
+/* Typography Styles */
+
+/* Base Typography */
+body {
+  font-family: berkeley-regular, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-foreground);
+  font-weight: normal;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+  color: var(--color-foreground);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+h5 {
+  font-size: 0.7rem;
+}
+
+h6 {
+  font-size: 0.7rem;
+}
+
+p, span, a, cite, q, em, strong, abbr, time, mark, address,
+ul, ol, li, dl, dd, dt,
+div, article, section, aside, blockquote, figure, figcaption, main,
+header, footer, nav, details, summary,
+label, legend, fieldset, input, select, option, button, textarea,
+caption, th, td,
+code, samp, kbd, var, pre {
+  font-size: 0.7rem;
+}
+
+small {
+  font-size: 0.6rem;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 0;
+}
+
+/* Text Styling */
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+mark {
+  background-color: var(--color-warning);
+  padding: 0.2em;
+  color: #212529;
+}
+
+/* Blockquote */
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid var(--color-border);
+  font-style: italic;
+  background-color: var(--color-surface);
+}
+
+blockquote p {
+  margin-bottom: 0.5rem;
+}
+
+blockquote cite {
+  display: block;
+  color: var(--color-accent);
+}
+
+/* Semantic Text Elements */
+abbr {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+code, kbd, samp, var {
+
+}
+
+kbd {
+  color: var(--color-foreground);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 1px 0 var(--color-border);
+}
+
+time {
+  color: var(--color-accent);
+}
+
+/* Superscript and Subscript */
+sup, sub {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Address */
+address {
+  margin-bottom: 1rem;
+}
+
+/* Pre Element */
+pre {
+  display: block;
+  font-family: monospace;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  color: var(--color-foreground);
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  overflow-x: auto;
+}

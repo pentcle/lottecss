@@ -1,0 +1,22 @@
+/* Fonts */
+
+/* Berkeley Mono */
+@font-face {
+    font-family: berkeley-regular;
+    src: url(font/BerkeleyMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: berkeley-bold;
+    src: url(font/BerkeleyMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: berkeley-italic;
+    src: url(font/BerkeleyMono-Italic.ttf);
+}
+
+/* Fallback Font Stack */
+.font-mono {
+  font-family: berkeley-regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

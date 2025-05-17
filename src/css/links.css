@@ -1,0 +1,20 @@
+/* Links Styles */
+
+a {
+  color: var(--color-foreground);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-background);
+  background-color: var(--color-highlight);
+}
+
+/* Anchor links and scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 2rem;
+}

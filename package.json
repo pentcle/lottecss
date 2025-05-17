@@ -1,4 +1,25 @@
 {
   "name": "lottecss",
-  "packageManager": "yarn@4.3.1"
+  "version": "1.0.0",
+  "description": "out of the box design and styling for your semantic markup",
+  "type": "module",
+  "main": "dist/styles.css",
+  "style": "dist/styles.css",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "postcss src/css/globals.css -o dist/styles.css"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1"
+  },
+  "dependencies": {
+    "postcss-import": "^16.1.0"
+  }
 }
