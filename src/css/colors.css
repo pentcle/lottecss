@@ -48,3 +48,77 @@
 .opacity-20 {
   opacity: 0.2;
 }
+
+/* Background Colors */
+.bg-background {
+    background-color: var(--color-background);
+}
+
+.bg-foreground {
+    background-color: var(--color-foreground);
+}
+
+.bg-surface {
+    background-color: var(--color-surface);
+}
+
+.bg-border {
+    background-color: var(--color-border);
+}
+
+.bg-accent {
+    background-color: var(--color-accent);
+}
+
+.bg-info {
+    background-color: var(--color-info);
+}
+
+.bg-success {
+    background-color: var(--color-success);
+}
+
+.bg-warning {
+    background-color: var(--color-warning);
+}
+
+.bg-error {
+    background-color: var(--color-error);
+}
+
+/* Text Colors */
+.text-background {
+    color: var(--color-background);
+}
+
+.text-foreground {
+    color: var(--color-foreground);
+}
+
+.text-surface {
+    color: var(--color-surface);
+}
+
+.text-border {
+    color: var(--color-border);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+.text-info {
+    color: var(--color-info);
+}
+
+.text-success {
+    color: var(--color-success);
+}
+
+.text-warning {
+    color: var(--color-warning);
+}
+
+.text-error {
+    color: var(--color-error);
+}
