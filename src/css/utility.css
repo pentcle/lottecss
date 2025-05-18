@@ -459,3 +459,7 @@
 .text-error {
   color: var(--color-error);
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
