@@ -19,27 +19,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 h3 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 h4 {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
 }
 
 h5 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 h6 {
-    font-size: 0.7rem;
+    font-size: 0.825rem;
 }
 
 p, span, a, cite, q, em, strong, abbr, time, mark, address,
@@ -53,7 +53,7 @@ samp, kbd, var {
 }
 
 small {
-    font-size: 0.7rem;
+    font-size: 0.715rem;
 }
 
 /* Paragraphs */
