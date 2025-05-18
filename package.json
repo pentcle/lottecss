@@ -1,6 +1,6 @@
 {
   "name": "@pentacle/lottecss",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "out of the box design and styling for your semantic markup",
   "type": "module",
   "main": "dist/styles.css",
