@@ -1,13 +1,13 @@
 main {
     max-width: 1024px;
     margin: 2rem auto 0 auto;
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
 }
 
 header {
     max-width: 1024px;
     margin: 2rem auto 0 auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
     background-color: var(--color-background);
     width: 100%;
     position: sticky;
@@ -21,7 +21,7 @@ header {
 footer {
     max-width: 1024px;
     margin: 2rem auto 0 auto;
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
     border-top: 1px solid var(--color-border);
 }
 
