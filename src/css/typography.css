@@ -11,9 +11,7 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    line-height: 1.2;
+    padding: .75rem 0;
     color: var(--color-foreground);
     font-weight: normal;
 }
@@ -27,19 +25,19 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 h4 {
-    font-size: 0.95rem;
+    font-size: 0.825rem;
 }
 
 h5 {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 h6 {
-    font-size: 0.825rem;
+    font-size: 0.75rem;
 }
 
 p, span, a, cite, q, em, strong, abbr, time, mark, address,
