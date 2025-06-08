@@ -134,6 +134,27 @@ address {
     margin-bottom: 1rem;
 }
 
+/* Definition Lists */
+dl {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: 600;
+    color: var(--color-foreground);
+    margin-top: 0.5rem;
+}
+
+dt:first-child {
+    margin-top: 0;
+}
+
+dd {
+    margin: 0.25rem 0 0.5rem 1.5rem;
+    color: var(--color-accent);
+}
+
 /* Pre Element */
 pre {
     display: block;
