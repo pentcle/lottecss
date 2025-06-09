@@ -20,12 +20,12 @@ nav ul li {
         border-radius: 0.25rem;
         
         &:hover {
-            color: var(--color-foreground);
+            color: var(--color-background);
             background-color: var(--color-accent);
         }
         
         &.active {
-            color: var(--color-foreground);
+            color: var(--color-background);
             background-color: var(--color-accent);
         }
     }
