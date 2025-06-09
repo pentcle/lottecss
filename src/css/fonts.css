@@ -20,3 +20,20 @@
 .font-mono {
   font-family: var(--font-family-mono);
 }
+
+/* Berkeley Font */
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: local('Berkeley Mono'),
+    local('BerkeleyMono-Regular');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: local('Berkeley Mono Bold'),
+    local('BerkeleyMono-Bold');
+    font-weight: 700;
+    font-style: normal;
+}
