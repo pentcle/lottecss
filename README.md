@@ -1,26 +1,32 @@
-# lottecss
+# pepo-ui
 
-![Homepage](https://img.shields.io/badge/website-lottecss.com-blue)
+![Homepage](https://img.shields.io/badge/website-ui.pepo.fun-blue)
 
-- out of the box design and styling for your app  
-- no need to apply classes  
-- use with your semantic HTML/JSX markup  
-- consistent styling for your elements  
-- minimal (familiar) utility classes so you don't need Tailwind
+- styles your HTML/JSX markup  
+- targets html elements
+- consistent styling for your elements
 
-**Live demo & docs:** [https://lottecss.com](https://lottecss.com)
+**Live demo & docs:** [https://ui.pepo.fun](https://ui.pepo.fun)
 
 ---
 
 ## Installation
 
 ```bash
-yarn add @pentacle/lottecss
+yarn add @pentacle/pepo-ui
 # or
-npm install @pentacle/lottecss
+npm install @pentacle/pepo-ui
 ```
 
 ## Development & Publishing
+
+### Dependencies
+
+**Dev Dependencies:**
+- `autoprefixer` - Adds vendor prefixes for browser compatibility
+- `cssnano` - Minifies CSS for production
+- `postcss` - CSS processor
+- `postcss-cli` - Command line interface for PostCSS
 
 ### Update and Publish Workflow
 
@@ -32,6 +38,8 @@ npm install @pentacle/lottecss
    # or
    npm run build
    ```
+   
+   This concatenates all CSS modules in the correct order and processes them through PostCSS (autoprefixer + cssnano).
 
 3. **Update the version** in package.json:
    ```bash

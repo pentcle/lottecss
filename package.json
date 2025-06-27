@@ -1,6 +1,6 @@
 {
-  "name": "@pentacle/lottecss",
-  "version": "1.0.22",
+  "name": "@pentacle/pepo-ui",
+  "version": "0.0.1",
   "description": "out of the box design and styling for your semantic markup",
   "type": "module",
   "main": "dist/styles.css",
@@ -9,7 +9,7 @@
     "styles.css"
   ],
   "scripts": {
-    "build": "postcss src/css/globals.css -o styles.css"
+    "build": "cat src/css/layout.css src/css/card.css src/css/colors.css src/css/fonts.css src/css/typography.css src/css/navigation.css src/css/header.css src/css/lists.css src/css/tables.css src/css/forms.css src/css/links.css src/css/media.css src/css/tabs.css src/css/utility.css src/css/globals.css | postcss -o styles.css"
   },
   "license": "MIT",
   "packageManager": "yarn@4.3.1",
